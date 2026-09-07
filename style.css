@@ -1,0 +1,19 @@
+.container {
+    outline: solid black 2px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    outline: solid black 2px ;
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+button {
+    margin: 0 0 20px 0px;
+}
