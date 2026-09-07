@@ -27,7 +27,7 @@ function removeGrid(){
 
 function etchGrid(){
     let grid = document.querySelectorAll('div');
-    for(var i = 0; i < grid.length; i++){
+    for(let i = 0; i < grid.length; i++){
         grid[i].addEventListener('mouseover',  function() {
             grid[i].style.backgroundColor = "rgb("+Math.floor(Math.random()*255)+","+ Math.floor(Math.random()*255)+","+ Math.floor(Math.random()*255)+")";
         });
